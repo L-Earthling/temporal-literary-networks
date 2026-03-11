@@ -64,7 +64,7 @@ The core dataset. One row = one character-pair observation in one chapter.
 | `Chapter` | int | Chapter number (1-indexed) |
 | `Character A` | string | First character name |
 | `Character B` | string | Second character name |
-| `Relationship` | string | `positive`, `negative`, or `neutral` |
+| `Relationship` | string | `positive`, `negative` or `neutral` |
 
 **Size:** 75,482 rows · 5 columns · semicolon-delimited (`;`)
 
@@ -177,10 +177,10 @@ temporal-literary-networks/
 │   └── example_network_evolution.gif   # Example per-book network animation
 │
 ├── notebooks/
-│   └── analysis.ipynb        # Full analysis pipeline (Blocks 0–G)
+│   └── analysis.ipynb        # Analysis pipeline (Blocks 0–G)
 │
 └── paper/
-    └── ISCS2026_preprint.pdf # Preprint (add after acceptance)
+    └── preprint.pdf # Preprint (to be added)
 ```
 
 ---
