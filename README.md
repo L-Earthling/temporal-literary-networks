@@ -48,7 +48,7 @@ Character relationships were extracted from publicly available chapter-level boo
 
 ### ⬇️ Download
 
-**[→ Download Temporal Character Relationship Networks v1 (GitHub Releases)](https://github.com/L-Earthling/temporal-literary-networks/releases/latest)**
+**[→ Download Temporal Character Relationship Networks v1](https://github.com/L-Earthling/temporal-literary-networks/releases/latest)**
 
 The release package contains both files below as a single `.zip`.
 
