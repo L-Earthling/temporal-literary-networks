@@ -150,7 +150,7 @@ Random Forest (142 temporal network features, 10-fold CV): macro-F1 = 0.168, sub
 The animation below shows the temporal evolution of a character-relationship network across chapters, with green edges = positive, red = negative, grey = neutral.
 
 <!-- Replace w actual GIF path once uploaded -->
-![Network evolution GIF](figures/example_network_evolution.gif)
+![Network evolution GIF](figures/Leo-Tolstoy_Anna-Karenina_network.gif)
 
 ---
 
