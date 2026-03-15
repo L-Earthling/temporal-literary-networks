@@ -1,7 +1,7 @@
 # Temporal Character Networks in Literary Fiction
 
 [![Dataset](https://img.shields.io/badge/Dataset-_v1-blue?style=flat-square&logo=github)](https://github.com/L-Earthling/temporal-literary-networks/releases/latest)
-[![Paper](https://img.shields.io/badge/Preprint-orange?style=flat-square)](https://iutdijon.u-bourgogne.fr/ccs-france/)
+[![Paper](https://img.shields.io/badge/Preprint-orange?style=flat-square)]
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green?style=flat-square&logo=python)](https://www.python.org/)
 
