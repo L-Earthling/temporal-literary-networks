@@ -119,11 +119,11 @@ meta = pd.read_csv("temporal_literary_networks_metadata.csv")
 
 ---
  
-## Analysis Pipeline
+## Pipeline
  
 ![Pipeline](figures/pipeline.png)
  
-The pipeline proceeds in four stages:
+The pipeline proceeds in following stages:
  
 1. **Data collection** — Chapter-by-chapter narrative summaries and character lists are collected from publicly available sources.
 2. **LLM extraction** — A large language model (Llama-3.3-70B-Instruct) processes each chapter summary in sequence, identifying character pairs and assigning signed polarity labels σ ∈ {+, −, 0}, yielding per-chapter edge tuples (A, B, σ, t).
