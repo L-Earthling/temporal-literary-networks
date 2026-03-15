@@ -130,7 +130,7 @@ The pipeline proceeds in following stages:
 3. **Network representation** — A graph builder assembles cumulative temporal networks G₁, …, G_T. Narrative time is normalized to τ = t/T ∈ (0,1]. Per-book feature vectors (142 dimensions: mean, variance, slope, τ-binned values across 6 core metrics) are extracted.
 4. **Analysis** — Kruskal–Wallis genre tests, structural balance theory (SBT), Random Forest genre classification, and epoch stratification.
  
-The full analysis notebook (`notebooks/analysis.ipynb`) is organized into sequential blocks (0 → 1 → A → B → C → D → E → F → G).
+The full analysis notebook (`scripts/analysis.ipynb`) is organized into sequential blocks (0 → 1 → A → B → C → D → E → F → G).
 
 ---
 
@@ -244,7 +244,7 @@ temporal-literary-networks/
 │   │   └── ...                          # one file per book (626 total)
 │   └── Leo-Tolstoy_Anna-Karenina_network.gif  # Example network evolution animation
 │
-├── notebooks/
+├── scripts/
 │   └── analysis.ipynb                   # Full analysis pipeline (Blocks 0–G)
 │
 └── paper/
@@ -282,7 +282,7 @@ print(df_full["Genre_Primary"].value_counts())
 
 ### Run the full analysis
 
-Open `notebooks/analysis.ipynb` in Jupyter and run cells in order (Blocks 0 → 1 → A → B → C → D → E → F). Outputs are saved to `figures/` and `results/` subdirectories.
+Open `scripts/analysis.ipynb` in Jupyter and run cells in order (Blocks 0 → 1 → A → B → C → D → E → F). Outputs are saved to `figures/` and `results/` subdirectories.
 
 ---
 
@@ -308,7 +308,7 @@ The notebook (`analysis.ipynb`) is organized into sequential blocks:
 ## License
 
 - **Dataset** (`data/`): [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) — free to use, share and adapt with attribution.
-- **Code** (`notebooks/`): [MIT License](LICENSE)
+- **Code** (`scripts/`): [MIT License](LICENSE)
 
 Character relationship data was extracted from publicly available book summaries. Original literary works remain the property of their respective authors and publishers.
 
